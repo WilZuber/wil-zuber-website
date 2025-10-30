@@ -12,12 +12,18 @@
   --color-darkperiwinkle: #4338ca;
   --color-greyperiwinkle: #f1f4f8ff;
   --color-blackperiwinkle: #312e81;
+  --color-nlpgrey: #393744ff;
+  --color-nlppurple: #8e86beff;
+  --color-nlplight: #eeeeee;
+  --color-nlppurpledim: #555072ff;
+  --color-nlpdim: #7d7a92;
+  --color-nlpdarkgrey: #2C2B36;
 }
 
 html,
 body {
-  @apply bg-white;
-  @apply text-blueblack;
+  @apply bg-nlpgrey;
+  @apply text-nlplight;
   scroll-behavior: smooth;
 
   @media (prefers-color-scheme: dark) {
