@@ -15,9 +15,9 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd autism-research-website
+            cd wil-zuber-website
             git pull
             npm ci
             npm run build
-            rm -rf /var/www/autismlanguage
-            cp -r build/client /var/www/autismlanguage
+            rm -rf /var/www/wilzubersite
+            cp -r build/client /var/www/wilzubersite
